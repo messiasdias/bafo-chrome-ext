@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Bafo - Block Abas From Origins",
+    "description": "Verifica a origem das abas e fecha as abas originadas apartir de domínios listados",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "assets/js/background.js"
+    },
+    "action": {
+        "default_popup": "README.html",
+        "default_icon": "icon.png",
+        "default_title": "Bafo"
+    },
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "update_url": "https://github.com/messiasdias/bafo-chrome-ext/blob/main/updates.xml"
+}
