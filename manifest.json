@@ -11,7 +11,7 @@
         "service_worker": "assets/js/background.js"
     },
     "action": {
-        "default_popup": "README.html",
+        "default_popup": "popup.html",
         "default_icon": "assets/img/icon.png",
         "default_title": "Bafo"
     },
