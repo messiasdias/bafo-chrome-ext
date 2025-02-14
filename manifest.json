@@ -5,7 +5,9 @@
     "version": "1.0",
     "permissions": [
         "tabs",
-        "activeTab"
+        "storage",
+        "activeTab",
+        "windows"
     ],
     "background": {
         "service_worker": "assets/js/background.js"

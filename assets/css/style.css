@@ -3,10 +3,21 @@
     --primary-color: #F8433F;
     --white-color: #FFF;
 }
+/* 
+html {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
 
 body{
+    position: relative;
     background: #1251ce;
-    width: 400px;
+    /* width: 800px;
+    height: 600px; */
+    width:500px;
     padding: 50px;
     font-family: sans-serif;
     display: flex;
