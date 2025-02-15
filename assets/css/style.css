@@ -3,14 +3,7 @@
     --primary-color: #F8433F;
     --white-color: #FFF;
 }
-/* 
-html {
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
+
 
 body{
     position: relative;
@@ -34,6 +27,16 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.container > a#debug-btn {
+    margin-top: 10px;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.container > a#debug-btn.active {
+    opacity: 1;
 }
 
 img {
